@@ -20,14 +20,13 @@ As far as I know it is correct, the output should match what you get from here: 
 
 - Please comment your code
 - Both the API and the web front-end will be run on localhost (no CORS errors please)
-- Add a readme to the API project and add any information you deem relevant
-
 
 ## 3. Build a simple angular application that consumes the API
 
 - It doesn't need to be fancy
 - It does need to work :)
-- Add a readme to the web project and add any information you deem relevant
+- Reorganise this repo so that the folder structure is neat and tidy
+- Replace this readme file with a new one that describes your application structure and supplies any information that is needed to run your application. 
 
 ## How to submit 
 
@@ -36,4 +35,5 @@ As far as I know it is correct, the output should match what you get from here: 
 - Give me access (github username: wallywasadog, github email: nick@databrain.com.au)
 - Ping me to let me know you have completed the tasks
 
+Have fun, and thank you for taking the time to complete this test.
 

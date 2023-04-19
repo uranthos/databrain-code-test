@@ -1,4 +1,8 @@
-﻿namespace DataBrain.PAYG;
+﻿
+using DataBrain.Common.CommonDefs;
+using DataBrain.Common.Interfaces;
+
+namespace DataBrain.PAYG;
 
 public record TaxTableItem(float X, float A, float B);
 

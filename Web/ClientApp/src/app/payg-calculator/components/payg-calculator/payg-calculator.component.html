@@ -1,0 +1,35 @@
+
+<form [formGroup]="paygSubmission" (submit)="fetchResults();">
+
+  <div class="component">
+    <div class="col">
+      <div class="row md-3">
+        Income Amount:
+        <div class="input-group">
+          <input type="number" formControlName="taxableIncome" />
+        </div>
+      </div>
+      <div class="row md-3">
+        Income Amount:
+        <div class="input-group">
+
+          <select formControlName="frequency" number>
+
+            <ng-container *ngFor="let f of paymentFrequencies; let i = index;">
+
+              <option [attr.value]="i" [attr.label]="paymentFrequencies[i]"></option>
+            </ng-container>
+
+          </select>
+
+        </div>
+      </div>
+      <div class="row md-3">
+        <button type="submit" class="btn-sm">Submit</button>
+      </div>
+      <div class="row md-3">
+        Result: {{result}}
+      </div>
+    </div>
+  </div>
+</form>

@@ -14,6 +14,8 @@ The solution has been refactored into several projects containing:
         This project was added using the 'ASP.NET Core with Angular' template from within Visual Studio 2022 (17.5.4)
             thus following the layout of that template. Folders of note are:
         /Controllers: Contains the web.API endpoint for task 2.
-        /ClientApp/src/app/payg-calculator: This is the module I created which contains the component, model and service required for task 3.
+        /ClientApp/src/app/payg-calculator: This is the module I created which contains the component, model and service 
+            required for task 3.
 
-        This has been built using angular v15.1.6.
+        This has been built using angular v15.1.6. As For installation instructions, opening and running the solution from 
+            within visual studio 2022 worked for me without any additional configuration steps
